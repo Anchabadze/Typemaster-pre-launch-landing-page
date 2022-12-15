@@ -1,0 +1,9 @@
+body {
+    box-sizing: border-box;
+    padding: 55px 165px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}

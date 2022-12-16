@@ -29,8 +29,20 @@ header {
 
 /* Typemaster start */
 
+.typemaster {
+    display: flex;
+    align-items: center;
+}
+
+.typemaster__img {
+    width: 540px;
+    height: 480px;
+    border-radius: 1rem;
+}
+
 .typemaster__wrapper {
     width: 45%;
+    margin-right: 125px;
 }
 
 .typemaster h1 {

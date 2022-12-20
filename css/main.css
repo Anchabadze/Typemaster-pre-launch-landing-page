@@ -177,5 +177,18 @@ header {
 
 /* Footer start */
 
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #7B8BAD;
+}
+
+footer span {
+    font-weight: 700; 
+}
 
 /* Footer end */

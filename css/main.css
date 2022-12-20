@@ -94,7 +94,7 @@ header {
 .mechanical {
     display: flex;
     align-items: center;
-    margin-bottom: 168px;
+    margin-bottom: 84px;
 }
 
 .mechanical__img-one {
@@ -146,6 +146,7 @@ header {
 .benefits {
     display: flex;
     gap: 30px;
+    margin-bottom: 64px;
 }
 
 .benefits__img-cont {
@@ -173,3 +174,8 @@ header {
     color: #7B8BAD;
 }
 /* Benefits end */
+
+/* Footer start */
+
+
+/* Footer end */

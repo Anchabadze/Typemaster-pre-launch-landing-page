@@ -143,5 +143,17 @@ header {
 
 /* Benefits start */
 
+.benefits {
+    display: flex;
+}
+
+.benefits__img-cont {
+    background-color: #F16718;
+    border-radius: 1rem;
+    width: 65px;
+    height: 65px;
+    display: grid;
+    place-items: center;
+}
 
 /* Benefits end */

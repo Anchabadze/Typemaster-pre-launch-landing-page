@@ -25,6 +25,13 @@ header {
     text-transform: uppercase;
 }
 
+.header__btn:hover,
+.header__btn:active,
+.header__btn:focus {
+    color: #FFFFFF;
+    background-color: #162542;
+}
+
 /* Header end */
 
 /* Typemaster start */
@@ -78,6 +85,12 @@ header {
     text-decoration: none;
     border-radius: 1rem;
     margin-right: 40px;
+}
+
+.typemaster__btn:hover,
+.typemaster__btn:focus,
+.typemaster__btn:active {
+    opacity: 50%;
 }
 
 .typemaster__release {
@@ -181,14 +194,16 @@ footer {
     text-align: center;
 }
 
-footer p {
+.rights {
     font-weight: 500;
     font-size: 16px;
     color: #7B8BAD;
+    margin-bottom: 2rem;
 }
 
-footer span {
+.rights span {
     font-weight: 700; 
 }
+
 
 /* Footer end */

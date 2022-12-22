@@ -116,12 +116,10 @@ header {
     justify-content: space-between;
 }
 
-/* .mechanical__img-one {
-    width: 255px;
-    height: 480px;
-    margin-right: 30px;
-    border-radius: 1rem;
-} */
+.mechanical__img {
+    display: flex;
+    width: 175%;
+}
 
 .mechanical__img-one {
     width: 50%;
@@ -242,10 +240,36 @@ footer {
 
 @media screen and (max-width: 1024px) {
 
+body {
+    padding: 0;
+}
+
+header {
+    padding: 40px 40px 0 40px;
+    margin-bottom: 62px;
+}
+.mechanical {
+    display: block;
+    padding-left: 40px;
+}
+
+.mechanical__img {
+    margin-bottom: 72px;
+    width: 100%;
+}
+
+.mechanical__img-two {
+    margin-right: 0;
+}
+
+.mechanical__info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
-
-    
 }
 
 /* Tablet responsive design end */

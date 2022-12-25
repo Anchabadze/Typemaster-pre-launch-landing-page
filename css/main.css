@@ -170,8 +170,9 @@ header {
 /* Benefits start */
 
 .benefits {
-    display: flex;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2.5rem;
     margin-bottom: 64px;
 }
 
@@ -287,6 +288,16 @@ header {
     margin: 0;
 }
 
+.benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4,5rem;
+    margin-bottom: 64px;
+    padding: 0 98px 0 39px;
 }
 
+.benefits__item {
+    max-width: 281px;
+}
+}
 /* Tablet responsive design end */

@@ -261,9 +261,8 @@ header {
 }
 
 .mechanical {
-    display: block;
-    padding-left: 40px;
-    padding-right: 40px;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px;
     margin-bottom: 100px;
 }
 
@@ -274,29 +273,27 @@ header {
 }
 
 .mechanical__img-one {
-    max-width: 214px;
+    max-width: 240px;
 }
 
 .mechanical__img-two {
     margin-right: 0;
-    max-width: 445px;
+    max-width: 480px;
 }
 
 .mechanical__info {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
+    grid-column: span 2;
     align-items: center;
-    gap: 4rem;
+    
 }
 
 .mechanical__title {
     margin: 0;
     max-width: 255px;
-}
-
-.mechanical__text {
-    max-width: 398px;
 }
 
 .benefits {

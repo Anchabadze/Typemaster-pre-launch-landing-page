@@ -307,5 +307,27 @@ header {
 .benefits__item {
     max-width: 281px;
 }
+
+footer {
+    margin-bottom: 43px;
+}
+
 }
 /* Tablet responsive design end (iPad Air) */
+
+/* Mobile responsive design start (iPhone XR) */
+
+@media screen and (max-width: 414px) {
+
+.typemaster {
+    display: block;
+}
+
+
+
+
+
+
+}
+
+/* Mobile responsive design end (iPhone XR) */

@@ -323,7 +323,18 @@ footer {
     display: block;
 }
 
+.typemaster__wrapper {
+    width: 100%;
+    margin-bottom: 64px;
+}
 
+.typemaster__title {
+    margin-bottom: 32px;
+}
+
+.typemaster__img {
+    width: 378px;
+}
 
 
 

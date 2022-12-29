@@ -333,11 +333,31 @@ footer {
 }
 
 .typemaster__img {
-    width: 378px;
+    width: 100%;
+    height: 88vw;
 }
 
+.mechanical {
+    padding: 0;
+}
 
+.mechanical__img-one {
+    height: 51vw;
+}
 
+.mechanical__img-two {
+    height: 51vw;
+    margin-right: 24px;
+}
+
+.mechanical__info {
+    flex-direction: column;
+    text-align: center;
+}
+
+.mechanical__text {
+    margin: 0 3rem;
+}
 
 }
 

@@ -273,12 +273,12 @@ header {
 }
 
 .mechanical__img-one {
-    max-width: 240px;
+    width: 30vw;
 }
 
 .mechanical__img-two {
     margin-right: 0;
-    max-width: 480px;
+    width: 55vw;
 }
 
 .mechanical__info {
@@ -334,7 +334,7 @@ footer {
 
 .typemaster__img {
     width: 100%;
-    height: 88vw;
+    height: 70vw;
 }
 
 .mechanical {
@@ -381,7 +381,6 @@ footer {
 .benefits__text {
     text-align: center;
 }
-
 
 }
 

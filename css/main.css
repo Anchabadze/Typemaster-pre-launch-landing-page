@@ -359,6 +359,30 @@ footer {
     margin: 0 3rem;
 }
 
+.benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+}
+
+.benefits__img-cont {
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.benefits__item {
+    max-width: 100%;
+}
+
+.benefits__title {
+    text-align: center;
+}
+
+.benefits__text {
+    text-align: center;
+}
+
+
 }
 
 /* Mobile responsive design end (iPhone XR) */
